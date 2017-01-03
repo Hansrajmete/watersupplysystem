@@ -1,0 +1,46 @@
+
+.margin 
+  {
+    margin-bottom: 45px;
+    position :center
+    
+    //font-size: 30px;
+    font-family:font1;
+    //color:BLUE;
+   
+  color: white;
+    text-shadow: 2px 2px 4px #000000;  
+}
+
+.fHead
+{
+   font-family:font2;
+   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.bg-1 { 
+      background-color:#87CEEB; /* Green */
+      color: black;
+  }
+
+@font-face {
+    font-family: font1;
+    src: url('Font/TradeWinds-Regular.ttf');
+}
+@font-face {
+    font-family: font2;
+    src: url('Font/Almendra-Bold.ttf');
+}
+
+#myModal{
+ position:center;
+//top:5%;
+//right:50%;
+//outline: none;
+}
+
+.bgi
+{
+ background-image:url("logo.jpg");
+ opacity:0.2;
+}
